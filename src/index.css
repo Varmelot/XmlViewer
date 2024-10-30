@@ -1,0 +1,27 @@
+/* Import Bootstrap CSS */
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+/* Custom styles */
+.file-list-item {
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.file-list-item:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.file-list-item.selected {
+  background-color: rgba(13, 110, 253, 0.1);
+}
+
+.xml-content {
+  max-height: calc(100vh - 250px); /* Account for header and padding */
+  overflow-y: auto;
+}
+
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  margin-bottom: 0;
+}
